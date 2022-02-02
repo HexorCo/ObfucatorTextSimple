@@ -210,9 +210,100 @@ function giveMeWord_Ofucada(word) {
   case "0":
   word_end = "76"
   break;
-  case "?":
-  word_end = "67"
+  case "67":
+  word_end = "?"
+  break; // nuevp
+  case ",":
+  word_end = "61"
   break;
+  case ".":
+  word_end = "16"
+  break;
+  case "$":
+  word_end = "62"
+  break;
+  case '"':
+  word_end = '26'
+  break;
+  case "!":
+  word_end = "63"
+  break;
+  case "%":
+  word_end = "36"
+  break;
+  case "(":
+  word_end = "64"
+  break;
+  case ")":
+  word_end = "46"
+  break;
+  case "=":
+  word_end = "65"
+  break;
+  case "[":
+  word_end = "56"
+  break;
+  case "]":
+  word_end = "51"
+  break;
+  case "{":
+  word_end = "15"
+  break;
+  case "}":
+  word_end = "52"
+  break;
+  case ":":
+  word_end = "25"
+  break;
+  case ";":
+  word_end = "53"
+  break;
+  case "@":
+  word_end = "35"
+  break;
+  case "~":
+  word_end = "54"
+  break;
+  case "€":
+  word_end = "45"
+  break;
+  case "\ ".replace(" ",""):
+  word_end = "41"
+  break;
+  case "|":
+  word_end = "14"
+  break;
+  case "#":
+  word_end = "42"
+  break;
+  case "§":
+  word_end = "24"
+  break;
+  case "'":
+  word_end = "43"
+  break;
+  case "·":
+  word_end = "34"
+  break;
+  case "+":
+  word_end = "31"
+  break;
+  case "`":
+  word_end = "13"
+  break;
+  case "Ç":
+  word_end = "32"
+  break;
+  case "ç":
+  word_end = "23"
+  break;
+  case "ª":
+  word_end = "21"
+  break;
+  case "&":
+  word_end = "12"
+  break;
+
 
     default:
       break;
@@ -431,7 +522,104 @@ switch (word) {
   break;
   case "67":
   word_end = "?"
+  break; // nuevp
+  case "61":
+  word_end = ","
   break;
+  case "16":
+  word_end = "."
+  break;
+  case "62":
+  word_end = "$"
+  break;
+  case "26":
+  word_end = '"'
+  break;
+  case "63":
+  word_end = "!"
+  break;
+  case "36":
+  word_end = "%"
+  break;
+  case "64":
+  word_end = "("
+  break;
+  case "46":
+  word_end = ")"
+  break;
+  case "65":
+  word_end = "="
+  break;
+  case "56":
+  word_end = "["
+  break;
+  case "51":
+  word_end = "]"
+  break;
+  case "15":
+  word_end = "{"
+  break;
+  case "52":
+  word_end = "}"
+  break;
+  case "25":
+  word_end = ":"
+  break;
+  case "53":
+  word_end = ";"
+  break;
+  case "35":
+  word_end = "@"
+  break;
+  case "54":
+  word_end = "~"
+  break;
+  case "45":
+  word_end = "€"
+  break;
+  case "41":
+  word_end = "\ ".replace(" ","")
+  break;
+  case "14":
+  word_end = "|"
+  break;
+  case "42":
+  word_end = "#"
+  break;
+  case "24":
+  word_end = "§"
+  break;
+  case "43":
+  word_end = "'"
+  break;
+  case "34":
+  word_end = "·"
+  break;
+  case "31":
+    word_end = "+"
+  break;
+  case "13":
+  word_end = "`"
+  break;
+  case "32":
+  word_end = "Ç"
+  break;
+  case "23":
+  word_end = "ç"
+  break;
+  case "21":
+  word_end = "ª"
+  break;
+  case "12":
+  word_end = "&"
+  break;
+
+
+
+
+
+
+
 
     default:
       break;
