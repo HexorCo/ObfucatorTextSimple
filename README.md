@@ -1,8 +1,6 @@
 # ObfucatorTextSimple
 this is a simple obfuscatcher using javascript easy to understand how it works
 
-View the Online Text Obfusucator
-https://hexorpages.github.io/ObfucatorTextSimple/
 
 
 ![image](https://user-images.githubusercontent.com/97565183/151442724-d3cb6329-b8e5-4a73-b0f8-4fc972437c0a.png)
